@@ -5,9 +5,9 @@
 **discord:** alvltab#9694
 
 ## Skills in programming and markup langs
- 
-**html, css, less** — intermediate 
- 
+
+**html, css, less** — intermediate
+
 **javascript, python** — intermediate
   
 **react, redux** — basics
