@@ -108,3 +108,20 @@ function listPosition(word) {
 
 ### Projects
 See my projects at [codepen.io](https://codepen.io/alvltab) or [jsfiddle.net](https://jsfiddle.net/alvltab)
+
+## Education and courses
+- 2014–2019 — Siberian State Medical University, Pharmacy Specialty
+- 2019–2021 — Siberian State Medical University, Residency in Management and Economics of Pharmacy
+
+* freeCodeCamp:
+    * Responsive Web Design
+    * JavaScript Algorithms and Data Structures
+    * Front End Development Libraries
+
+## Experience
+* 2014–2015 — freelance in rewriting and copywriting
+* 2015–2016 — project «Fleming» (medical news), scientific and grammar editor
+* 2016–2021 — «Medical Channel (Medach)» (medical mass media), scientific and grammar editor
+* 2019–2022 — freelance in medical copywriting
+* 2020–2021 — Ltd «"Vita" Pharmacy», pharmacist
+* 2021–present — Management Company «Edelweiss», head of subsidized medicines provision department
