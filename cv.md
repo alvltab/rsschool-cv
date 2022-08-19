@@ -125,3 +125,9 @@ See my projects at [codepen.io](https://codepen.io/alvltab) or [jsfiddle.net](ht
 * 2019–2022 — freelance in medical copywriting
 * 2020–2021 — Ltd «"Vita" Pharmacy», pharmacist
 * 2021–present — Management Company «Edelweiss», head of subsidized medicines provision department
+
+***
+
+2022, alvltab
+
+[![RS School logo](/rs_school_js.png)](https://rs.school/js/)
