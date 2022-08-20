@@ -29,7 +29,7 @@
         <section class="alvltab" id="alvltab">
             <div class="wrapper">
                 <h1>Alexander Tabakaev / alvltab</h1>
-                <img src="/images/portrait.jpeg">
+                <img src="/images/portrait.jpeg" alt="My portrait">
                 <p>junior front-end developer</p>
             </div>
         </section>
@@ -123,7 +123,7 @@
                     <code>
 function listPosition(word) {
   // if there is only one letter
-  if (word.length <= 1) {return word.length};
+  if (word.length &lt;= 1) {return word.length};
   
   let letters = word.split('');
   
@@ -141,7 +141,7 @@ function listPosition(word) {
   // iterative factorial
   function factorial(n) {
     let fact = 1;
-    for (let i = 2; i <= n; i++) {
+    for (let i = 2; i &lt;= n; i++) {
       fact *= i;
     }
     return fact;
