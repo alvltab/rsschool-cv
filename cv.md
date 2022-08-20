@@ -2,7 +2,7 @@
 
 *junior front-end developer*
 
-![My portrait](/portrait-mini.jpg)
+![My portrait](/images/portrait-mini.jpg)
 
 ## Contacts
 * [Telegram](https://t.me/alvltab)
@@ -130,4 +130,4 @@ See my projects at [codepen.io](https://codepen.io/alvltab) or [jsfiddle.net](ht
 
 2022, alvltab
 
-[![RS School logo](/rs_school_js.png)](https://rs.school/js/)
+[![RS School logo](/images/rs_school_js.png)](https://rs.school/js/)
