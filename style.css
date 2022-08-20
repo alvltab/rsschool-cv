@@ -1,0 +1,40 @@
+body {
+    margin: auto;
+    max-width: 1440px;
+    width: 90%;
+    overflow-x: hidden;
+}
+
+header {
+    padding: 5px 0;
+    position: sticky;
+    top: 0;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+nav li {
+    padding: 2px 3px;
+    list-style: none;
+}
+
+code {
+    white-space: pre-wrap;
+}
+
+footer ul {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+footer li {
+    padding-right: 25px;
+    list-style: none;
+}
