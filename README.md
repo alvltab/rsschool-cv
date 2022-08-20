@@ -1,3 +1,3 @@
 # rsschool-cv
 
-https://alvltab.github.io/rsschool-cv/cv
+https://alvltab.github.io/rsschool-cv
