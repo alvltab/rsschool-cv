@@ -15,7 +15,7 @@
     --vw-ratio: calc(100vw - var(--vw-min)*1px) / var(--vw-diff);
 
     --text-max: 22;
-    --text-min: 15;
+    --text-min: 14;
     --text-diff: calc(var(--text-max) - var(--text-min));
 }
 
@@ -43,16 +43,32 @@ h1 {
 }
 
 section {
+    margin-top: -5em;
     margin-bottom: 1em;
 }
 
 h2 {
-    font-size: 1.4rem;
+    padding-top: 5em;
     padding-bottom: 0.7em;
+    font-size: 1.4rem;
 }
 
 h3 {
+    padding-top: 5em;
     font-size: 1.2rem;
+}
+
+:target {
+    margin-left: -0.2em;
+    text-shadow: 0.2em 0.4em 0.2em #c0c0c0;
+}
+
+h2,
+h3
+:target {
+    transition-property: margin-left, text-shadow;
+    transition-duration: 1s, 1s;
+    transition-timing-function: ease, ease;
 }
 
 ul {
@@ -68,7 +84,14 @@ li:not(:last-of-type) li:last-of-type {
 }
 
 a {
+    color: #3a3a3a;
     background-color: transparent;
+}
+
+a:hover,
+a:focus,
+a:active {
+    color: #6b6b6b;
 }
 
 img {
@@ -78,6 +101,7 @@ img {
 /* HEADER */
 
 header {
+    z-index: 10;
     padding: 0 0 3%;
     position: sticky;
     top: 0;
@@ -87,8 +111,8 @@ header {
 nav {
     padding: 1% 0;
     width: 100%;
-    background-color: #f7f7f7;
-    box-shadow: 0 0 3em 0 rgba(0, 0, 0, 0.15);
+    background-color: #fbfbfb;
+    box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.15);
 }
 
 nav ul {
@@ -134,6 +158,11 @@ main {
 .about img {
     max-width: 250px;
     width: 60%;
+    border-radius: 0.5em;
+}
+
+.about p {
+    margin-top: 1em;
 }
 
 .contacts {
@@ -162,10 +191,35 @@ main {
 
 .example {
     grid-area: examp;
+}
+
+.accordion {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    margin-top: 1em;
     margin-inline: -2%;
     padding: 2%;
     border-radius: calc(var(--text-min)*1px);
-    background-color: rgb(225, 225, 225);
+    background-color: #e1e1e1;
+}
+
+.accordion div {
+    position: absolute;
+    right: 3%;
+    top: 0;
+    margin-top: -1em;
+    padding-top: 0.3em;
+    padding-inline: 1em;
+
+    border-radius: 1em;
+    font-size: 0.7em;
+    font-style: italic;
+    background-color: #ebebeb;
+}
+
+.accordion span:last-of-type {
+    display: none;
 }
 
 code {
@@ -206,8 +260,8 @@ footer {
 footer div {
     padding: 2% 0;
     width: 100%;
-    background-color: #f7f7f7;
-    box-shadow: 0 0 5em 0 rgba(0, 0, 0, 0.15);
+    background-color: #fbfbfb;
+    box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.15);
 }
 
 footer ul {
@@ -226,4 +280,31 @@ footer li {
 
 footer img {
     height: 2em;
+}
+
+@media screen and (max-width: 580px) {
+    .grid {
+        grid-template-areas:
+        "about"
+        "conts"
+        "hards"
+        "softs"
+        "langs"
+        "projs"
+        "examp"
+        "educs"
+        "cours"
+        "exprs";
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (pointer:coarse) {
+    .accordion span:first-of-type {
+        display: none;
+    }
+    
+    .accordion span:last-of-type {
+        display: inline;
+    }
 }

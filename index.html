@@ -11,13 +11,13 @@
     <header>
         <nav>
             <ul>
-                <li><a href="#contacts">Contacts</a></li>
                 <li><a href="#about">About</a></li>
-                <li><a href="#langs">Language skills</a></li>
+                <li><a href="#contacts">Contacts</a></li>
                 <li><a href="#hards">Hard skills</a></li>
                 <li><a href="#softs">Soft skills</a></li>
-                <li><a href="#example">Example of code</a></li>
+                <li><a href="#langs">Language skills</a></li>
                 <li><a href="#projects">Projects</a></li>
+                <li><a href="#example">Example of code</a></li>
                 <li><a href="#education">Education</a></li>
                 <li><a href="#courses">Courses</a></li>
                 <li><a href="#experience">Experience</a></li>
@@ -28,18 +28,18 @@
     <main>
         <h1>Alexander Tabakaev / <em>alvltab</em></h1>
         <div class="grid">    
-            <section class="about" id="about">
+            <section class="about">
                 <div class="wrapper">
-                    <h2>About</h2>
+                    <h2 id="about">About</h2>
                     <img src="images/portrait.jpeg" alt="My portrait">
                     <p><em>junior front-end developer</em></p>
                     <p>I'm a good guy from Siberia, who likes to help people and do programming.</p>
                 </div>
             </section>
     
-            <section class="contacts" id="contacts">
+            <section class="contacts">
                 <div class="wrapper">
-                    <h2>Contacts</h2>
+                    <h2 id="contacts">Contacts</h2>
                     <ul>
                         <li><a href="https://t.me/alvltab">Telegram</a></li>
                         <li><a href="https://github.com/alvltab">GitHub</a></li>
@@ -49,9 +49,9 @@
                 </div>
             </section>
     
-            <section class="langs" id="langs">
+            <section class="langs">
                 <div class="wrapper">
-                    <h2>Language skills</h2>
+                    <h2 id="langs">Language skills</h2>
                     <ul>
                         <li>English — pre-intermediate</li>
                         <li>Russian — native</li>
@@ -59,9 +59,9 @@
                 </div>
             </section>
 
-            <section class="hards" id="hards">
+            <section class="hards">
                 <div class="wrapper">
-                    <h2>Hard skills</h2>
+                    <h2 id="hards">Hard skills</h2>
                     <ul>
                         <li>markup:
                             <ul>
@@ -97,9 +97,9 @@
                 </div>
             </section>
     
-            <section class="softs" id="softs">
+            <section class="softs">
                 <div class="wrapper">
-                    <h2>Soft skills</h2>
+                    <h2 id="softs">Soft skills</h2>
                     <ul>
                         <li>conflict management</li>
                         <li>decision-making</li>
@@ -111,18 +111,19 @@
                 </div>
             </section>
 
-            <section class="projects" id="projects">
+            <section class="projects">
                 <div class="wrapper">
-                    <h2>Projects</h2>
+                    <h2 id="projects">Projects</h2>
                     <p>See my projects at <a href="https://codepen.io/alvltab">codepen.io</a> or <a href="https://jsfiddle.net/alvltab">jsfiddle.net</a></p>
                 </div>
             </section>
 
-            <section class="example" id="example">
+            <section class="example">
                 <div class="wrapper">
-                    <h3>Example of code</h3>
-                    <a href="https://www.codewars.com/kata/reviews/53e612fe7e5c2caffd0000ef/groups/62eb6d5a3448e40001e3248f">«Alphabetic Anagrams» (codewars kata 3)</a>
-                    <div class="accordion">
+                    <h3 id="example">Example of code</h3>
+                    <div class="accordion" lang="en">
+                        <div><span>click</span><span>tap</span> to expand</div>
+                        <a href="https://www.codewars.com/kata/reviews/53e612fe7e5c2caffd0000ef/groups/62eb6d5a3448e40001e3248f">«Alphabetic Anagrams» (codewars kata 3)</a>
                         <code>
 function listPosition(word) {
   // if there is only one letter
@@ -184,9 +185,9 @@ function listPosition(word) {
                 </div>
             </section>
 
-            <section class="education" id="education">
+            <section class="education">
                 <div class="wrapper">
-                    <h2>Education</h2>
+                    <h2 id="education">Education</h2>
                     <ul>
                         <li><span class="dates">2014–2019 —</span><span class="description"> Siberian State Medical University, Pharmacy Specialty</span></li>
                         <li><span class="dates">2019–2021 —</span><span class="description"> Siberian State Medical University, Residency in Management and Economics of Pharmacy</span></li>
@@ -194,9 +195,9 @@ function listPosition(word) {
                 </div>
             </section>
 
-            <section class="courses" id="courses">
+            <section class="courses">
                 <div class="wrapper">
-                    <h2>Courses</h2>
+                    <h2 id="courses">Courses</h2>
                     <ul>
                         <li>freeCodeCamp:
                             <ul>
@@ -209,9 +210,9 @@ function listPosition(word) {
                 </div>
             </section>
     
-            <section class="experience" id="experience">
+            <section class="experience">
                 <div class="wrapper">
-                    <h2>Experience</h2>
+                    <h2 id="experience">Experience</h2>
                     <ul>
                         <li><span class="dates">2014–2015 —</span><span class="description"> freelance in rewriting and copywriting</span></li>
                         <li><span class="dates">2015–2016 —</span><span class="description"> project «Fleming» (medical news), scientific and grammar editor</span></li>
