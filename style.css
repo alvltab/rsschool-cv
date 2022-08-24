@@ -196,15 +196,19 @@ main {
 .accordion {
     position: relative;
     z-index: 1;
-    width: 100%;
+
     margin-top: 1em;
     margin-inline: -2%;
+    width: 100%;
+    height: fit-content;
     padding: 2%;
+
     border-radius: calc(var(--text-min)*1px);
     background-color: #e1e1e1;
+    cursor: pointer;
 }
 
-.accordion div {
+.hint {
     position: absolute;
     right: 3%;
     top: 0;
@@ -218,15 +222,22 @@ main {
     background-color: #ebebeb;
 }
 
-.accordion span:last-of-type {
+#tap {
+    display: none;
+}
+
+#hide {
     display: none;
 }
 
 code {
-    display: none;
+    display: block;
+    max-height: 0;
     white-space: pre-wrap;
     font-family: monospace, monospace;
     font-size: 1em;
+    overflow: hidden;
+    transition: max-height 0.7s ease;
 }
 
 .courses {
@@ -300,11 +311,11 @@ footer img {
 }
 
 @media (pointer:coarse) {
-    .accordion span:first-of-type {
+    #click {
         display: none;
     }
     
-    .accordion span:last-of-type {
+    #tap {
         display: inline;
     }
 }

@@ -41,10 +41,10 @@
                 <div class="wrapper">
                     <h2 id="contacts">Contacts</h2>
                     <ul>
-                        <li><a href="https://t.me/alvltab">Telegram</a></li>
-                        <li><a href="https://github.com/alvltab">GitHub</a></li>
-                        <li><a href="https://discord.com/users/alvltab#9694">Discord</a></li>
-                        <li><a href="https://habr.com/ru/users/alvltab/">Habr</a></li>
+                        <li><a target="_blank" href="https://t.me/alvltab">Telegram</a></li>
+                        <li><a target="_blank" href="https://github.com/alvltab">GitHub</a></li>
+                        <li><a target="_blank" href="https://discord.com/users/alvltab#9694">Discord</a></li>
+                        <li><a target="_blank" href="https://habr.com/ru/users/alvltab/">Habr</a></li>
                     </ul>
                 </div>
             </section>
@@ -114,17 +114,17 @@
             <section class="projects">
                 <div class="wrapper">
                     <h2 id="projects">Projects</h2>
-                    <p>See my projects at <a href="https://codepen.io/alvltab">codepen.io</a> or <a href="https://jsfiddle.net/alvltab">jsfiddle.net</a></p>
+                    <p>See my projects at <a target="_blank" href="https://codepen.io/alvltab">codepen.io</a> or <a target="_blank" href="https://jsfiddle.net/alvltab">jsfiddle.net</a></p>
                 </div>
             </section>
 
             <section class="example">
                 <div class="wrapper">
                     <h3 id="example">Example of code</h3>
-                    <div class="accordion" lang="en">
-                        <div><span>click</span><span>tap</span> to expand</div>
-                        <a href="https://www.codewars.com/kata/reviews/53e612fe7e5c2caffd0000ef/groups/62eb6d5a3448e40001e3248f">«Alphabetic Anagrams» (codewars kata 3)</a>
-                        <code>
+                    <div class="accordion" id="accordion">
+                        <div class="hint"><span id="click">click</span><span id="tap">tap</span> to <span id="expand">expand</span><span id="hide">hide</span></div>
+                        <a target="_blank" href="https://www.codewars.com/kata/reviews/53e612fe7e5c2caffd0000ef/groups/62eb6d5a3448e40001e3248f">«Alphabetic Anagrams» (codewars kata 3)</a>
+                        <code id="code">
 function listPosition(word) {
   // if there is only one letter
   if (word.length &lt;= 1) {return word.length};
@@ -230,11 +230,12 @@ function listPosition(word) {
         <div>
             <ul>
                 <li>
-                    <a href="https://rs.school/js/"><img src="images/rs_school_js.png" alt="RS School JS logo"></a>
+                    <a target="_blank" href="https://rs.school/js/"><img src="images/rs_school_js.png" alt="RS School JS logo"></a>
                 </li>
-                <li>2022, alvltab — <a href="https://github.com/alvltab">GitHub</a></li>
+                <li>2022, alvltab — <a target="_blank" href="https://github.com/alvltab">GitHub</a></li>
             </ul>
         </div>
     </footer>
+    <script src="index.js"></script>
 </body>
 </html>
