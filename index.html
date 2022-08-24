@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alexander Tabakaev</title>
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/styles/github.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -122,9 +125,10 @@
                 <div class="wrapper">
                     <h3 id="example">Example of code</h3>
                     <div class="accordion" id="accordion">
-                        <div class="hint"><span id="click">click</span><span id="tap">tap</span> to <span id="expand">expand</span><span id="hide">hide</span></div>
                         <a target="_blank" href="https://www.codewars.com/kata/reviews/53e612fe7e5c2caffd0000ef/groups/62eb6d5a3448e40001e3248f">«Alphabetic Anagrams» (codewars kata 3)</a>
-                        <code id="code">
+                        <div class="codeblock">
+                            <div class="hint"><span id="click">click</span><span id="tap">tap</span> to <span id="expand">expand</span><span id="hide">hide</span></div>
+                            <pre><code class="language-javascript" id="code">
 function listPosition(word) {
   // if there is only one letter
   if (word.length &lt;= 1) {return word.length};
@@ -180,7 +184,8 @@ function listPosition(word) {
   
   return forecast(letters);
 }
-                        </code>
+                            </code></pre>
+                        </div>
                     </div>
                 </div>
             </section>
