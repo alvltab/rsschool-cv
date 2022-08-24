@@ -1,12 +1,14 @@
 /* GENERAL */
 
-/* adaptive calc:
+/*
+  adaptive calc:
   if:
     (x - xmin) / (xmax - xmin) = (y - ymin) / (ymax - ymin), y = ?;
   then:
     y = ((x - xmin) / (xmax - xmin)) * (ymax - ymin) + ymin;
 
-  calc(((100vw - min vw) / (max vw - min vw)) * (max el - min el) + min el) */
+  calc(((100vw - min vw) / (max vw - min vw)) * (max el - min el) + min el)
+*/
 
 :root {
     --vw-max: 2560;
@@ -27,7 +29,6 @@
 html {
     box-sizing: border-box;
     line-height: 1.15;
-    -webkit-text-size-adjust: 100%;
     font-family: monospace, monospace;
     font-size: calc(var(--vw-ratio) * var(--text-diff) + var(--text-min)*1px);
     scroll-behavior: smooth;
@@ -117,7 +118,6 @@ nav {
 
 nav ul {
     margin-inline: auto;
-    padding-left: -2%;
     max-width: 1024px;
     display: flex;
     flex-wrap: wrap;
@@ -151,6 +151,8 @@ main {
     column-gap: 10%;
 }
 
+/* ABOUT AND CONTACTS */
+
 .about {
     grid-area: about;
 }
@@ -169,6 +171,8 @@ main {
     grid-area: conts;
 }
 
+/* SKILLS */
+
 .hards {
     grid-area: hards;
 }
@@ -184,6 +188,8 @@ main {
 :is(.softs, .langs) li {
     list-style-type: '- ';
 }
+
+/* PROJECTS AND EXAMPLE */
 
 .projects {
     grid-area: projs;
@@ -240,6 +246,8 @@ code {
     transition: max-height 0.7s ease;
 }
 
+/* EDUCS AND EXPRS */
+
 .courses {
     grid-area: cours;
 }
@@ -292,6 +300,8 @@ footer li {
 footer img {
     height: 2em;
 }
+
+/* QUERIES */
 
 @media screen and (max-width: 580px) {
     .grid {
