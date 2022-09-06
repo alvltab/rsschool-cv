@@ -5,19 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alexander Tabakaev</title>
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/styles/github.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <nav>
             <ul>
-                <li><a href="#contacts">Contacts</a></li>
                 <li><a href="#about">About</a></li>
-                <li><a href="#langs">Language skills</a></li>
+                <li><a href="#contacts">Contacts</a></li>
                 <li><a href="#hards">Hard skills</a></li>
                 <li><a href="#softs">Soft skills</a></li>
-                <li><a href="#example">Example of code</a></li>
+                <li><a href="#langs">Language skills</a></li>
                 <li><a href="#projects">Projects</a></li>
+                <li><a href="#example">Example of code</a></li>
                 <li><a href="#education">Education</a></li>
                 <li><a href="#courses">Courses</a></li>
                 <li><a href="#experience">Experience</a></li>
@@ -26,101 +29,106 @@
     </header>
     
     <main>
-        <section class="alvltab" id="alvltab">
-            <div class="wrapper">
-                <h1>Alexander Tabakaev / alvltab</h1>
-                <img src="images/portrait.jpeg" alt="My portrait">
-                <p>junior front-end developer</p>
-            </div>
-        </section>
+        <h1>Alexander Tabakaev / <em>alvltab</em></h1>
+        <div class="grid">    
+            <section class="about">
+                <div class="wrapper">
+                    <h2 id="about">About</h2>
+                    <img src="images/portrait.jpeg" alt="My portrait">
+                    <p><em>junior front-end developer</em></p>
+                    <p>I'm a good guy from Siberia, who likes to help people and do programming.</p>
+                </div>
+            </section>
+    
+            <section class="contacts">
+                <div class="wrapper">
+                    <h2 id="contacts">Contacts</h2>
+                    <ul>
+                        <li><a target="_blank" href="https://t.me/alvltab">Telegram</a></li>
+                        <li><a target="_blank" href="https://github.com/alvltab">GitHub</a></li>
+                        <li><a target="_blank" href="https://discord.com/users/alvltab#9694">Discord</a></li>
+                        <li><a target="_blank" href="https://habr.com/ru/users/alvltab/">Habr</a></li>
+                    </ul>
+                </div>
+            </section>
+    
+            <section class="langs">
+                <div class="wrapper">
+                    <h2 id="langs">Language skills</h2>
+                    <ul>
+                        <li>English — pre-intermediate</li>
+                        <li>Russian — native</li>
+                    </ul>
+                </div>
+            </section>
 
-        <section class="contacts" id="contacts">
-            <div class="wrapper">
-                <h2>Contacts</h2>
-                <ul>
-                    <li><a href="https://t.me/alvltab">Telegram</a></li>
-                    <li><a href="https://github.com/alvltab">GitHub</a></li>
-                    <li><a href="https://discord.com/users/alvltab#9694">Discord</a></li>
-                    <li><a href="https://habr.com/ru/users/alvltab/">Habr</a></li>
-                </ul>
-            </div>
-        </section>
+            <section class="hards">
+                <div class="wrapper">
+                    <h2 id="hards">Hard skills</h2>
+                    <ul>
+                        <li>markup:
+                            <ul>
+                                <li>html — intermediate</li>
+                                <li>css — intermediate</li>
+                            </ul>
+                        </li>
+                        <li>programming:
+                            <ul>
+                                <li>JavaScript — intermediate</li>
+                                <li>TypeScript — basics</li>
+                                <li>python — basics</li>
+                                <li>clojure — basics</li>
+                            </ul>
+                        </li>
+                        <li>version control:
+                            <ul>
+                                <li>git — basics</li>
+                            </ul>
+                        </li>
+                        <li>code editor and IDE:
+                            <ul>
+                                <li>VS Code — intermediate</li>
+                            </ul>
+                        </li>
+                        <li>frameworks and libraries
+                            <ul>
+                                <li>React — basics</li>
+                                <li>Redux — basics</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+    
+            <section class="softs">
+                <div class="wrapper">
+                    <h2 id="softs">Soft skills</h2>
+                    <ul>
+                        <li>conflict management</li>
+                        <li>decision-making</li>
+                        <li>problem-solving</li>
+                        <li>critical thinking</li>
+                        <li>opennes to criticism</li>
+                        <li>adaptability</li>
+                    </ul>
+                </div>
+            </section>
 
-        <section class="about" id="about">
-            <div class="wrapper">
-                <h2>About</h2>
-                <p>I'm a good guy from Siberia, who likes to help people and do programming.</p>
-            </div>
-        </section>
+            <section class="projects">
+                <div class="wrapper">
+                    <h2 id="projects">Projects</h2>
+                    <p>See my projects at <a target="_blank" href="https://codepen.io/alvltab">codepen.io</a> or <a target="_blank" href="https://jsfiddle.net/alvltab">jsfiddle.net</a></p>
+                </div>
+            </section>
 
-        <section class="langs" id="langs">
-            <div class="wrapper">
-                <h2>Language skills</h2>
-                <ul>
-                    <li>English — pre-intermediate</li>
-                    <li>Russian — native</li>
-                </ul>
-            </div>
-        </section>
-        
-        <section class="hards" id="hards">
-            <div class="wrapper">
-                <h2>Hard skills</h2>
-                <ul>
-                    <li>markup:
-                        <ul>
-                            <li>html — intermediate</li>
-                            <li>css — intermediate</li>
-                        </ul>
-                    </li>
-                    <li>programming:
-                        <ul>
-                            <li>JavaScript — intermediate</li>
-                            <li>TypeScript — basics</li>
-                            <li>python — basics</li>
-                            <li>clojure — basics</li>
-                        </ul>
-                    </li>
-                    <li>version control:
-                        <ul>
-                            <li>git — basics</li>
-                        </ul>
-                    </li>
-                    <li>code editor and IDE:
-                        <ul>
-                            <li>VS Code — intermediate</li>
-                        </ul>
-                    </li>
-                    <li>frameworks and libraries
-                        <ul>
-                            <li>React — basics</li>
-                            <li>Redux — basics</li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-        </section>
-
-        <section class="softs" id="softs">
-            <div class="wrapper">
-                <h2>Soft skills</h2>
-                <ul>
-                    <li>conflict management</li>
-                    <li>decision-making</li>
-                    <li>problem-solving</li>
-                    <li>critical thinking</li>
-                    <li>opennes to criticism</li>
-                    <li>adaptability</li>
-                </ul>
-            </div>
-        </section>
-
-        <section class="example" id="example">
-            <div class="wrapper">
-                <h3>Example of code</h3>
-                <a href="https://www.codewars.com/kata/reviews/53e612fe7e5c2caffd0000ef/groups/62eb6d5a3448e40001e3248f">«Alphabetic Anagrams» (codewars kata 3)</a>
-                <div class="accordion">
-                    <code>
+            <section class="example">
+                <div class="wrapper">
+                    <h3 id="example">Example of code</h3>
+                    <div class="accordion" id="accordion">
+                        <a target="_blank" href="https://www.codewars.com/kata/reviews/53e612fe7e5c2caffd0000ef/groups/62eb6d5a3448e40001e3248f">«Alphabetic Anagrams» (codewars kata 3)</a>
+                        <div class="codeblock">
+                            <div class="hint"><span id="click">click</span><span id="tap">tap</span> to <span id="expand">expand</span><span id="hide">hide</span></div>
+                            <pre><code class="language-javascript" id="code">
 function listPosition(word) {
   // if there is only one letter
   if (word.length &lt;= 1) {return word.length};
@@ -176,67 +184,63 @@ function listPosition(word) {
   
   return forecast(letters);
 }
-                    </code>
+                            </code></pre>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </section>
+            </section>
 
-        <section class="projects" id="projects">
-            <div class="wrapper">
-                <h2>Projects</h2>
-                <p>See my projects at <a href="https://codepen.io/alvltab">codepen.io</a> or <a href="https://jsfiddle.net/alvltab">jsfiddle.net</a></p>
-            </div>
-        </section>
+            <section class="education">
+                <div class="wrapper">
+                    <h2 id="education">Education</h2>
+                    <ul>
+                        <li><span class="dates">2014–2019 —</span><span class="description"> Siberian State Medical University, Pharmacy Specialty</span></li>
+                        <li><span class="dates">2019–2021 —</span><span class="description"> Siberian State Medical University, Residency in Management and Economics of Pharmacy</span></li>
+                    </ul>
+                </div>
+            </section>
 
-        <section class="education" id="education">
-            <div class="wrapper">
-                <h2>Education</h2>
-                <ul>
-                    <li><span class="dates">2014–2019</span><span class="description">— Siberian State Medical University, Pharmacy Specialty</span></li>
-                    <li><span class="dates">2019–2021</span><span class="description">— Siberian State Medical University, Residency in Management and Economics of Pharmacy</span></li>
-                </ul>
-            </div>
-        </section>
-
-        <section class="courses" id="courses">
-            <div class="wrapper">
-                <h2>Courses</h2>
-                <ul>
-                    <li>freeCodeCamp:
-                        <ul>
-                            <li>Responsive Web Design</li>
-                            <li>JavaScript Algorithms and Data Structures</li>
-                            <li>Front End Development Libraries</li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-        </section>
-
-        <section class="experience" id="experience">
-            <div class="wrapper">
-                <h2>Experience</h2>
-                <ul>
-                    <li><span class="dates">2014–2015</span><span class="description">— freelance in rewriting and copywriting</span></li>
-                    <li><span class="dates">2015–2016</span><span class="description">— project «Fleming» (medical news), scientific and grammar editor</span></li>
-                    <li><span class="dates">2016–2021</span><span class="description">— «Medical Channel (Medach)» (medical mass media), scientific and grammar editor</span></li>
-                    <li><span class="dates">2019–2022</span><span class="description">— freelance in medical copywriting</span></li>
-                    <li><span class="dates">2020–2021</span><span class="description">— Ltd «"Vita" Pharmacy», pharmacist</span></li>
-                    <li><span class="dates">2021–present</span><span class="description">— Management Company «Edelweiss», head of local subsidized medicines provision department</span></li>
-                </ul>
-            </div>
-        </section>
+            <section class="courses">
+                <div class="wrapper">
+                    <h2 id="courses">Courses</h2>
+                    <ul>
+                        <li>freeCodeCamp:
+                            <ul>
+                                <li>Responsive Web Design</li>
+                                <li>JavaScript Algorithms and Data Structures</li>
+                                <li>Front End Development Libraries</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+    
+            <section class="experience">
+                <div class="wrapper">
+                    <h2 id="experience">Experience</h2>
+                    <ul>
+                        <li><span class="dates">2014–2015 —</span><span class="description"> freelance in rewriting and copywriting</span></li>
+                        <li><span class="dates">2015–2016 —</span><span class="description"> project «Fleming» (medical news), scientific and grammar editor</span></li>
+                        <li><span class="dates">2016–2021 —</span><span class="description"> «Medical Channel (Medach)» (medical mass media), scientific and grammar editor</span></li>
+                        <li><span class="dates">2019–2022 —</span><span class="description"> freelance in medical copywriting</span></li>
+                        <li><span class="dates">2020–2021 —</span><span class="description"> Ltd «"Vita" Pharmacy», pharmacist</span></li>
+                        <li><span class="dates">2021–present —</span><span class="description"> Management Company «Edelweiss», head of local subsidized medicines provision department</span></li>
+                    </ul>
+                </div>
+            </section>
+        </div>
     </main>
     
     <footer>
         <div>
             <ul>
                 <li>
-                    <a href="https://rs.school/js/"><img src="images/rs_school_js.png" alt="RS School JS logo"></a>
+                    <a target="_blank" href="https://rs.school/js/"><img src="images/rs_school_js.png" alt="RS School JS logo"></a>
                 </li>
-                <li>2022, alvltab</li>
+                <li>2022, alvltab — <a target="_blank" href="https://github.com/alvltab">GitHub</a></li>
             </ul>
         </div>
     </footer>
+    <script src="index.js"></script>
 </body>
 </html>
